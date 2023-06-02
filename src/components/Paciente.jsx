@@ -2,7 +2,7 @@ const Paciente = ({ paciente }) => {
     const { nombre, propietario, email, fecha, Sintomas } = paciente;
     return (
         // <div className="mt-16">
-            <div className=" bg-white mt-3 shadow-md px-5 py-10 rounded-md mr-8 ">
+            <div className=" bg-white mt-3 shadow-md px-5 py-10 rounded-md  ">
                 <p className=" font-bold mb-3 text-gray-700 uppercase">
                     Nombre: <span className="font-normal normal-case">{nombre}</span>
                 </p>

@@ -49,8 +49,8 @@ const Form = ({ pacientes, setPacientes }) => {
   };
 
   return (
-    <div className="md:w-2/3 lg:w-2/5 m-5 mr-8">
-      <h2 className="font-black text-3xl text-center mt-4">
+    <div className="md:w-2/3 lg:w-2/5 m-5 mr-20">
+      <h2 className="font-black text-3xl text-center mt-4 mr-4">
         Seguimiento pacientes
       </h2>
       <p className="text-lg mt-16 text-center mb-5">
