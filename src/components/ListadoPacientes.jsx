@@ -4,7 +4,7 @@ const ListadoPacientes = ({ pacientes }) => {
   
 
   return (
-    <div className="md:w-3/5  lg:w-3/5  md:h-screen overflow-y-scroll  mt-3 lg:mr-14 ">
+    <div className="md:w-3/5  lg:w-3/5  md:h-screen overflow-y-scroll  mt-8 lg:mr-14 ">
       {pacientes && pacientes.length ? (
         <>
           <h2 className="font-black text-3xl text-center mb-16">
