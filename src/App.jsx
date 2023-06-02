@@ -7,7 +7,7 @@ function App() {
   const [pacientes, setPacientes] = useState([]);
 
   return (
-    <div className="container m-10 overflow-x-hidden">
+    <div className="container m-10 ">
       <Header />
       <div className="mt-12 md:flex ">
         <Form 
