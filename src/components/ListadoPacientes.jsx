@@ -1,7 +1,10 @@
+
 import Paciente from "./Paciente";
 
-const ListadoPacientes = ({ pacientes }) => {
-  
+const ListadoPacientes = ({ pacientes, setPaciente, eliminarPaciente}) => {
+
+
+ 
 
   return (
     <div className="md:w-3/5  lg:w-3/5  md:h-screen overflow-y-scroll  mt-8 lg:mr-14 mr-20 ">
@@ -15,7 +18,10 @@ const ListadoPacientes = ({ pacientes }) => {
             <span className="text-indigo-600 font-bold">Pacientes y citas</span>
           </p>
           {pacientes.map((paciente) => (
-            <Paciente key={paciente.id} paciente={paciente} />
+            <Paciente key={paciente.id} paciente={paciente} 
+            setPaciente ={setPaciente}
+            eliminarPaciente = {eliminarPaciente}
+            />
           ))}
         </>
       ) : (
