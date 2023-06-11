@@ -24,7 +24,10 @@ const Paciente = ({ paciente, setPaciente, eliminarPaciente }) => {
               icon: "success",
               
             });
-            eliminarPaciente(id)
+            setTimeout(() => {
+                eliminarPaciente(id)
+            }, 1300);
+          
           } else {
             
         swal
@@ -32,7 +35,7 @@ const Paciente = ({ paciente, setPaciente, eliminarPaciente }) => {
           }
         });
     }
-    console.log(swal);
+    // console.log(swal);
 
     return (
     
