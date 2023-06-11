@@ -26,7 +26,7 @@ const Paciente = ({ paciente, setPaciente, eliminarPaciente }) => {
             });
             setTimeout(() => {
                 eliminarPaciente(id)
-            }, 1300);
+            }, 1000);
           
           } else {
             
