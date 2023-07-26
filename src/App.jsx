@@ -11,14 +11,12 @@ function App() {
     const obtenerLS = () => {
       const pacientesLS = JSON.parse(localStorage.getItem("pacientes")) ?? [];
       setPacientes(pacientesLS);
-      
     };
     obtenerLS();
   }, []);
 
-
   useEffect(() => {
-    localStorage.setItem("pacientes", JSON.stringify( pacientes ));
+    localStorage.setItem("pacientes", JSON.stringify(pacientes));
   }, [pacientes]);
 
   const eliminarPaciente = (id) => {
